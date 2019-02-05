@@ -530,10 +530,10 @@ img {
                 text-transform: capitalize;
                 font-size: 18px;
                 padding: 0 10px;
-                color: $white-color;
+                color: black;
                 &:hover,
                 &:focus {
-                    color: $pri-color;
+                    color: yellow;
                 }
                 @media #{$breakpoint-lg} {
                     font-size: 16px;

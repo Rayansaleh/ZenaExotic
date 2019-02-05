@@ -335,7 +335,7 @@ img {
 
 /* :: 3.6.0 ScrollUp */
 #scrollUp {
-  background-color: #688bfe;
+  background-color: #f9a825;
   border-radius: 5px 0 0 5px;
   bottom: 70px;
   color: #ffffff;
@@ -356,7 +356,7 @@ img {
     font-size: 18px;
     display: block; }
   #scrollUp:hover {
-    background-color: #ff7902;
+    background-color: #66bb6a;
     color: #ffffff; }
 
 /* :: 3.7.0 pixel Button */
@@ -364,7 +364,7 @@ img {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #ff7902;
+  background-color: #66bb6a;
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -451,7 +451,7 @@ img {
         padding: 0 10px;
         color: #ffffff; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ff7902; }
+          color: #66bb6a; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             font-size: 16px;
@@ -538,10 +538,10 @@ img {
           color: #212121;
           border-color: #212121; } }
       .header-area .top-social-info a:hover, .header-area .top-social-info a:focus {
-        border-color: #ff7902;
-        color: #ff7902; }
+        border-color: #66bb6a;
+        color: #66bb6a; }
   .header-area .is-sticky .pixel-main-menu {
-    background-color: #688bfe;
+    background-color: #f9a825;
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3); }
 
 .classy-navbar-toggler .navbarToggler span {
@@ -579,7 +579,7 @@ img {
         font-size: 16px; } }
     .hero-area .owl-prev:hover,
     .hero-area .owl-next:hover {
-      color: #ff7902; }
+      color: #66bb6a; }
   .hero-area .owl-next {
     left: auto;
     right: 50px; }
@@ -611,6 +611,7 @@ img {
     animation: slide-bg linear 10000ms infinite; }
   .single-slide .welcome-text {
     position: relative;
+    margin-left: 100px;
     z-index: 1; }
     .single-slide .welcome-text h2 {
       font-size: 72px;
@@ -706,13 +707,13 @@ img {
         .top-catagory-area .single-catagory a {
           font-size: 24px; } }
       .top-catagory-area .single-catagory a:hover {
-        color: #ff7902; }
+        color: #66bb6a; }
 
 /* :: 9.0 Newsletter Area CSS */
 .nl-area {
   position: relative;
   z-index: 3;
-  background-color: #688bfe; }
+  background-color: #f9a825; }
   .nl-area .nl-form {
     position: relative;
     z-index: 1; }
@@ -742,7 +743,7 @@ img {
         -o-transition-duration: 500ms;
         transition-duration: 500ms; }
         .nl-area .nl-form form input:focus {
-          border-bottom-color: #ff7902; }
+          border-bottom-color: #66bb6a; }
 
 /* :: Portfolio Area CSS */
 .pixel-projects-menu {
@@ -760,8 +761,8 @@ img {
     border: 2px solid transparent; }
     .pixel-projects-menu .btn.active, .pixel-projects-menu .btn:focus {
       box-shadow: none;
-      color: #ff7902;
-      border-color: #ff7902; }
+      color: #66bb6a;
+      border-color: #66bb6a; }
 
 .single_gallery_item {
   display: inline-block;
@@ -789,7 +790,7 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 121, 2, 0.9);
+    background-color: rgba(102, 187, 106, 0.9);
     opacity: 0;
     visibility: hidden;
     -webkit-transition-duration: 500ms;
@@ -1015,7 +1016,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #688bfe;
+  background-color: #f9a825;
   padding-left: 35px;
   padding-right: 35px; }
   @media only screen and (max-width: 767px) {
@@ -1112,8 +1113,8 @@ img {
             line-height: 26px;
             font-size: 14px; } }
         .footer-area .single-footer-widget .footer-social-info a:hover, .footer-area .single-footer-widget .footer-social-info a:focus {
-          border-color: #ff7902;
-          color: #ff7902; }
+          border-color: #66bb6a;
+          color: #66bb6a; }
   .footer-area .copywrite-area {
     position: relative;
     z-index: 1;
@@ -1475,7 +1476,7 @@ img {
   .contact-form-area textarea:focus {
     background-color: #f6f6f6;
     box-shadow: none;
-    border-bottom-color: #ff7902; }
+    border-bottom-color: #66bb6a; }
 .contact-form-area textarea {
   height: 170px;
   padding-top: 20px;
