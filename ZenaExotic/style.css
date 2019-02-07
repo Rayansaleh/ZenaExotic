@@ -388,7 +388,7 @@ img {
   .pixel-btn:hover, .pixel-btn:focus {
     font-size: 14px;
     font-weight: 600;
-    background-color: #688bfe;
+    background-color: #f9a825;
     color: #ffffff;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.15); }
   .pixel-btn.btn-2 {
@@ -459,10 +459,12 @@ img {
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             color: #212121;
+            background-color: #f9a825;
             font-size: 14px; } }
         @media only screen and (max-width: 767px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             color: #212121;
+            background-color: #f9a825;
             font-size: 14px; } }
       .header-area .pixel-main-menu .classy-navbar .classynav > ul > li:first-child a {
         padding-left: 0; }
