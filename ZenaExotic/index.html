@@ -61,7 +61,15 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="services.html">Services</a></li>
-                                    <li><a href="portfolio.html">Products</a></li>                                    
+                                    <li cn-dropdown-item has-down>
+                                        <a href="portfolio.html">Produits</a>
+                                        <ul class="dropdown">
+                                            <li><a href="confitures.html">Confitures</a></li>
+                                            <li><a href="jus.html">Jus</a></li>
+                                            <li><a href="sirops.html">Sirops</a></li>
+                                        </ul>
+                                        <span class="dd-trigger"></span>
+                                    </li>                                    
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
 
@@ -88,7 +96,7 @@
             <!-- Single Slide -->
             <div class="single-slide">
                 <!-- Background Image-->
-                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/milky-way-2695569_1920.jpg);"></div>
+                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/mango-1239347_1920.jpg);"></div>
                 <!-- Welcome Text -->
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -106,7 +114,7 @@
             <!-- Single Slide -->
             <div class="single-slide">
                 <!-- Background Image-->
-                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/tulips-21690_1920.jpg);"></div>
+                <div class="slide-bg-img bg-img" style="background-image: url(img/bg-img/strawberry-2293337_1920.jpg);"></div>
                 <!-- Welcome Text -->
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -125,8 +133,21 @@
     </section>
     <!-- ##### Hero Area End ##### -->
 
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                   <h2>A propos</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit, elit pulvinar interdum dapibus, est dui convallis orci, vel gravida erat ante in sapien. Ut sed tristique dui, id mattis enim. Vivamus ac mollis ligula. In feugiat, libero a posuere aliquam, lorem orci suscipit dui, sit amet pellentesque dolor diam et elit.</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit, elit pulvinar interdum dapibus, est dui convallis orci, vel gravida erat ante in sapien. Ut sed tristique dui, id mattis enim. Vivamus ac mollis ligula. In feugiat, libero a posuere aliquam, lorem orci suscipit dui, sit amet pellentesque dolor diam et elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ##### Portfolio Area Start ###### -->
-    <div class="pixel-portfolio-area section-padding-100-0">
+    <div class="pixel-portfolio-area section-padding-10-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -139,19 +160,10 @@
         </div>
 
         <!-- Portfolio Menu -->
-        <div class="pixel-projects-menu wow fadeInUp" data-wow-delay="200ms">
-            <div class="text-center portfolio-menu">
-                <button class="btn active" data-filter="*">All Projects</button>
-                <button class="btn" data-filter=".confitures">Confitures</button>
-                <button class="btn" data-filter=".jus">Jus</button>
-                <button class="btn" data-filter=".sirops">Sirops</button>
-            </div>
-        </div>
-
         <div class="pixel-portfolio">
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item confitures wow fadeInUp" data-wow-delay="0.2s">
+            <div class="single_gallery_item wow fadeInUp" data-wow-delay="0.2s">
                 <img src="img/bg-img/jam-2444923_1920.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -163,10 +175,10 @@
 
             <!-- Single gallery Item -->
             <div class="single_gallery_item jus wow fadeInUp" data-wow-delay="0.4s">
+                <a href="confitures.html"></a>
                 <img src="img/bg-img/beverage-3468108_1920.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
-                    <div class="hover-text">
-                        <a href="img/bg-img/beverage-3468108_1920.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                    <div class="hover-text">                      
                         <h4>Plus de details</h4>
                     </div>
                 </div>
@@ -183,7 +195,7 @@
                 </div>
             </div>
 
-             <div class="single_gallery_item jus wow fadeInUp" data-wow-delay="0.8s">
+             <div class="single_gallery_item jus wow fadeInUp" data-wow-delay="0.4s">
                 <img src="img/bg-img/smoothie-1560351_1920.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
